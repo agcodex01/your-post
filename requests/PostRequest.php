@@ -32,4 +32,5 @@ class PostRequest
             'body' => $this->body
         ];
     }
+
 }
