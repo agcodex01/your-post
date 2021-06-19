@@ -1,0 +1,10 @@
+<?php
+require_once('./util.php');
+require('./config/Database.php');
+require_once('./requests/UserRequest.php');
+require_once('./requests/PostRequest.php');
+require_once('./models/Model.php');
+require_once('./models/User.php');
+require_once('./models/Post.php');
+session_start();
+clearError();
