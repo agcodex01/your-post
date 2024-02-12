@@ -3,10 +3,10 @@
 class Database
 {
 
-    private $host = "sql313.epizy.com";
-    private $database = "epiz_28844383_evsu_blog";
-    private $username = "epiz_28844383";
-    private $password = "PnrOcQO0Wn0r8y";
+    private $host = "localhost";
+    private $database = "evsu";
+    private $username = "root";
+    private $password = "";
 
     public $conn;
 
